@@ -1,0 +1,16 @@
+<Biome>
+  <Topology 
+    name="_EMPTY_"
+    background_image="data/weather_gfx/background_excavationsite.png"
+    background_edge_left="data/weather_gfx/edges/background_excavationsite_left.png"
+    background_edge_right="data/weather_gfx/edges/background_excavationsite_right.png"
+    background_edge_top="data/weather_gfx/edges/background_excavationsite_top.png"
+    background_edge_bottom="data/weather_gfx/edges/background_excavationsite_bottom.png"
+    background_edge_priority="10"     
+
+    limit_background_image="0"
+    noise_biome_edges="0"
+    >
+  </Topology>
+
+</Biome>

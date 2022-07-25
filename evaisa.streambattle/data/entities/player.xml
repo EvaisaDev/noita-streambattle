@@ -1,0 +1,16 @@
+<Entity 
+  name="DEBUG_NAME:player"
+  tags="mortal,human,hittable,peasant,prey,player_unit,teleportable" >
+  
+  <Base file="data/entities/player_base.xml" include_children="1" /> 
+  
+  <LuaComponent
+    script_source_file="mods/evaisa.streambattle/files/scripts/spectator.lua"
+    execute_on_added="1"
+    execute_every_n_frame="1"
+	execute_times="-1"
+  ></LuaComponent>
+
+
+</Entity>
+

@@ -1,0 +1,23 @@
+<BiomesToLoad 
+	biome_image_map="data/biome_impl/biome_map.png"
+	biome_offset_y="14" >
+
+	<Biome 
+		biome_filename="mods/evaisa.streambattle/files/biome/coalpits_arena.xml" 
+		height_index="1" 
+		color="fffc5c47" >
+	</Biome>
+
+	<Biome 
+		biome_filename="data/biome/solid_wall.xml" 
+		height_index="1"
+		color="ff3d3d3d" >
+	</Biome>
+
+	<Biome 
+		biome_filename="mods/evaisa.streambattle/files/biome/empty.xml" 
+		height_index="0"
+		color="ff48E311" >
+	</Biome>
+	
+</BiomesToLoad>

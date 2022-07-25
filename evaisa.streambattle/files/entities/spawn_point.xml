@@ -1,0 +1,13 @@
+<Entity name="arena_spawnpoint" tags="arena_spawnpoint">
+<!--
+  <SpriteComponent 
+    _enabled="1" 
+    alpha="1" 
+    offset_x="2.5"
+    offset_y="2.5"
+    image_file="data/ui_gfx/debug_marker.png" 
+     
+     >
+  </SpriteComponent>
+  -->
+</Entity>

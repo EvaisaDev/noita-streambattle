@@ -1,0 +1,61 @@
+<Entity name="DEBUG_NAME:player" tags="mina">
+
+
+
+  <_Transform 
+    position.x="227" 
+    position.y="-79" 
+    rotation="0" 
+    scale.x="1" 
+    scale.y="1"
+    >
+  </_Transform>
+
+  <Entity name="nametag">
+    <InheritTransformComponent />
+    <SpriteComponent
+      image_file="data/fonts/font_pixel_white.xml"
+      is_text_sprite="1"
+      offset_x="0"
+      offset_y="25"
+      text = "unknown"
+      update_transform="1"
+      update_transform_rotation="1"
+      has_special_scale="1"
+      special_scale_x="1"
+      special_scale_y="1"
+      additive="1"
+      emissive="1"
+      alpha="1"
+    ></SpriteComponent>
+  </Entity>
+
+  <Entity name="inventory_quick">
+
+  </Entity>
+  <Entity name="inventory_full"/>
+
+
+  <Base file="mods/evaisa.streambattle/files/entities/mina/mina_base.xml">
+
+    <CharacterDataComponent
+      flying_needs_recharge="1"
+    ></CharacterDataComponent>
+
+  </Base>
+
+  <GameEffectComponent 
+        effect="REMOVE_FOG_OF_WAR"
+        frames="-1"
+    >
+	</GameEffectComponent >
+
+  <LuaComponent
+    script_source_file="mods/evaisa.streambattle/files/scripts/mina_update_home.lua"
+    execute_on_added="1"
+    execute_every_n_frame="1"
+    execute_times="-1"
+  ></LuaComponent>
+
+</Entity>
+
